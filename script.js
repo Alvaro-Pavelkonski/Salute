@@ -1,0 +1,6 @@
+const phone='5562998641092';
+const defaultMessage='Olá! Vi o site da Barbearia Salute e gostaria de saber mais sobre os serviços.';
+document.querySelectorAll('[data-wa]').forEach(link=>{const message=link.dataset.msg||defaultMessage;link.href=`https://wa.me/${phone}?text=${encodeURIComponent(message)}`;link.target='_blank';link.rel='noopener noreferrer'});
+const menu=document.querySelector('#menu-btn'),nav=document.querySelector('#nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'✕':'☰'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰'}));
+document.querySelector('#year').textContent=new Date().getFullYear();
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el))}else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));
