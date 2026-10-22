@@ -1,9 +1,0 @@
-BARBEARIA SALUTE — SITE VITRINE DEMONSTRATIVO
-
-1. Abra index.html no navegador para visualizar.
-2. Para publicar no GitHub Pages, envie index.html, style.css, script.js e a pasta assets/ para a raiz do repositório. Em Settings > Pages, selecione Deploy from a branch, main, / (root).
-3. O WhatsApp já está configurado com o número exibido no Instagram: 5562998641092.
-4. O endereço completo, horários e preços regulares não foram fornecidos; confirme antes de publicar como site oficial. A promoção R$34,99 foi anunciada apenas para quinta-feira dia 22 e não foi tratada como preço permanente.
-5. As imagens foram recortadas de capturas do Instagram e têm resolução limitada. Solicite ao estabelecimento os arquivos originais e autorização para uso antes da publicação comercial.
-6. O logotipo no cabeçalho é uma composição tipográfica demonstrativa. Substitua pelo arquivo oficial enviado pelo proprietário.
-7. Não há sistema de agendamento, banco de dados nem login: o contato é feito pelo WhatsApp.
